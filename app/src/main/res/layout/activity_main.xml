@@ -12,8 +12,12 @@
         android:id="@+id/etMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:hint="Enter Text"
-        android:padding="12dp" />
+        android:padding="14dp"
+        android:textColor="#ba68c8"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <FrameLayout
         android:id="@+id/frameLayout"
